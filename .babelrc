@@ -1,0 +1,8 @@
+//Configuracion necesaria para que funcione babel, para abreviar los comandos de ejecucion. Configuramos en el package.json el nuevo comando:  "dev": "nodemon src/index.js --exec babel-node" y desde la consola npm run dev
+
+
+{
+
+    "presets": ["@babel/preset-env"],
+    "plugins": ["@babel/plugin-transform-runtime"]
+}
